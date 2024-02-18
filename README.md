@@ -71,15 +71,12 @@ python3 data_preprocess_upload.py  --train_file \
 ```
 
 ## Train
-* `dataset_name`: dataset using for training (huggingface dataset)
-* `output_dir`: path of output file
-* `model_name_or_path`: model used to finetune (huggingface model)
-Example:  
+Example:   
 
 ```
 python3 slot_filling_train_trainer.py \
- --dataset_name \
- --output_dir \
+ --dataset_name "FanChen0116/19100_chat_8x_slot_pvi"\
+ --output_dir "/ssd/andychen/dataset/trainer/few_8x" \
  --model_name_or_path "SpanBERT/spanbert-base-cased"\
  --per_device_train_batch_size 8\
  --per_device_eval_batch_size 8\
@@ -101,6 +98,4 @@ python3 slot_filling_train_trainer.py \
  --metric_for_best_model f1 \
  --greater_is_better True \
  --drop_data_ratio "0.1_High_8x"\
-
-
 ```
