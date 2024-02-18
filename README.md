@@ -70,7 +70,7 @@ python3 data_preprocess_upload.py  --train_file \
 --push_huggingface_data
 ```
 
-## Train
+## Train and Evaluate
 Example:   
 
 ```
