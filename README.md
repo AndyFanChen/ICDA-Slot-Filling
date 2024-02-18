@@ -1,7 +1,7 @@
 # In-Context Data Augmentation For Slot Filling
-* First step: generate synthetic data.
-* Second step: filter out synthetic data by LLM and PVI filter.
-* Third step: mix synthetic data and original data to train.
+* First step: Generate synthetic data.
+* Second step: Filter out synthetic data by LLM and PVI filter.
+* Third step: Mix synthetic data and original data to train.
 
 ## Generate Data
 ### Generate Synthetic Data
