@@ -2,9 +2,9 @@
 * Applied in-context learning approach with ChatGPT to generate synthetic data which can augment scarce datasets and improved model performance by 65%
 * Establish PVI score that represents the meaning of the synthetic data to the model, selecting synthetic data with the optimal PVI allocation and fine-tune SpanBERT model with selected datasets
 ## Result Table
-Use synthetic data to impove f1 score from 40.0 to 57.4  
-Use LLM filter to impove f1 score from 57.4 to 61.4  
-Use PVI filter to impove f1 score from 61.4 to 65.9  
+* Use synthetic data to impove f1 score from 40.0 to 57.4  
+* Use LLM filter to impove f1 score from 57.4 to 61.4  
+* Use PVI filter to impove f1 score from 61.4 to 65.9  
 
 <img src="https://github.com/AndyFanChen/ICDA-Slot-Filling/blob/main/ICDA_result_table.png">
 
