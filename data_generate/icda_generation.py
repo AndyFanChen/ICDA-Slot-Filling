@@ -11,7 +11,7 @@ import os
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 config = Config()
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "YOUR OPENAI_API_KEY"
 
 
 def open_ai_set():
