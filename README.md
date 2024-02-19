@@ -1,8 +1,18 @@
 # In-Context Data Augmentation For Slot Filling
+* Applied in-context learning approach with ChatGPT to generate synthetic data which can augment scarce datasets and improved model performance by 65%
+* Establish PVI score that represents the meaning of the synthetic data to the model, selecting synthetic data with the optimal PVI allocation and fine-tune SpanBERT model with selected datasets
+## Result Table
+Use synthetic data to impove f1 score from 40.0 to 57.4  
+Use LLM filter to impove f1 score from 57.4 to 61.4  
+Use PVI filter to impove f1 score from 61.4 to 65.9  
+
+<img src="https://github.com/AndyFanChen/ICDA-Slot-Filling/blob/main/ICDA_result_table.png" width="500" height="320">
+
+For more details, please refer to ICDA_Slot_Filling_Poster.pdf which is the poster for this project.
+## Execute step
 * First step: Generate synthetic data.
 * Second step: Filter out synthetic data by LLM and PVI filter.
 * Third step: Mix synthetic data and original data to train.
-
 ## Generate Data
 ### Generate Synthetic Data
 `python3 icda_generation.py`
