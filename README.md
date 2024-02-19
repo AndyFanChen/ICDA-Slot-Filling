@@ -6,7 +6,7 @@ Use synthetic data to impove f1 score from 40.0 to 57.4
 Use LLM filter to impove f1 score from 57.4 to 61.4  
 Use PVI filter to impove f1 score from 61.4 to 65.9  
 
-<img src="https://github.com/AndyFanChen/ICDA-Slot-Filling/blob/main/ICDA_result_table.png" width="500" height="320">
+<img src="https://github.com/AndyFanChen/ICDA-Slot-Filling/blob/main/ICDA_result_table.png">
 
 For more details, please refer to ICDA_Slot_Filling_Poster.pdf which is the poster for this project.
 ## Execute step
