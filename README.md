@@ -85,8 +85,8 @@ Example:
 
 ```
 python3 slot_filling_train_trainer.py \
- --dataset_name "FanChen0116/19100_chat_8x_slot_pvi"\
- --output_dir "/ssd/andychen/dataset/trainer/few_8x" \
+ --dataset_name "dataset_name"\
+ --output_dir "./output" \
  --model_name_or_path "SpanBERT/spanbert-base-cased"\
  --per_device_train_batch_size 8\
  --per_device_eval_batch_size 8\
